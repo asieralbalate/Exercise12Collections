@@ -21,7 +21,7 @@ public class Exercise12 {
             Collections.sort(list);
             Collections.reverse(list);
             for (Pair pair : list) {
-                System.out.println(pair.a +);
+                System.out.println(pair);
             }
         } finally {
             if (input != null) {
