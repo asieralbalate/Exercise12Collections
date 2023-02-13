@@ -7,7 +7,7 @@ public class Exercise12 {
         Map<String, Integer> map = new HashMap<>();
         try {
             input = new BufferedReader(new FileReader(args[0]));
-            String line = input.readLine();
+            String line;
             while ((line = input.readLine()) != null) {
                 String[] items = line.split(",");
                 Integer freq = map.get(items[6]);
